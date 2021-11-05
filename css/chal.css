@@ -1,0 +1,102 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --bluecolor: #2196f3;
+  --greycolor: #9e9e9e;
+  --blackcolor: black;
+  --whitecolor: white;
+}
+.comtainer {
+  background-color: var(--bluecolor);
+  width: 325px;
+  height: fit-content;
+  padding: 20px;
+  margin: 40px auto;
+}
+.comtainer form {
+  padding: 20px;
+  background-color: var(--whitecolor);
+  border-radius: 3px;
+}
+.comtainer form h1 {
+  text-align: center;
+  line-height: 0px;
+  margin-bottom: 40px;
+}
+.comtainer form input {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px var(--greycolor);
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 1px;
+  margin-top: 7px;
+}
+.comtainer .nameicon {
+  margin-bottom: -8px;
+}
+.comtainer .name {
+  margin-bottom: 10px;
+  color: var(--greycolor);
+}
+.comtainer .partow button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: var(--whitecolor);
+  background-color: var(--bluecolor);
+  border-radius: 4px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.comtainer .partow .login {
+  text-align: center;
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+.comtainer .partow .login span {
+  color: var(--bluecolor);
+}
+.comtainer .partow hr {
+  border: var(--greycolor) 1px;
+  border-style: dashed;
+}
+.comtainer .partow .reg {
+  text-align: center;
+  font-weight: bold;
+}
+.comtainer .account {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+}
+.comtainer .account div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.comtainer .account div a {
+  color: var(--whitecolor);
+}
+.comtainer .account .face {
+  background-color: #3f51b5;
+}
+.comtainer .account .twit {
+  background-color: var(--bluecolor);
+}
+.comtainer .account .google {
+  background-color: red;
+}
+.comtainer .partow a {
+  text-decoration: none;
+}
